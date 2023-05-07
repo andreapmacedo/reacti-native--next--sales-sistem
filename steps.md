@@ -23,3 +23,22 @@ npm run start
 ```bash
 npm run android
 ```
+
+
+### Instalando o EsLint e o Prettier
+> OBS.: Não utilizei
+Para instalar o EsLint e o Prettier, executamos o seguinte comando:
+```bash
+npm install eslint --save-dev @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint eslint-config-prettier eslint-plugin-import eslint-plugin-prettier eslint-plugin-react eslint-plugin-simple-import-sort pre-commit prettier
+```
+
+### Instalando o Styled Components
+
+Para instalar o Styled Components, executamos o seguinte comando:
+```bash
+yarn add styled-components
+```
+> Intalando o types para o styled components
+```bash
+yarn add @types/styled-components-react-native -D
+```

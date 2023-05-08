@@ -9,13 +9,13 @@ interface ExampleProps {
 
 // const Example = (props: ExampleProps) => {
 const Example = ({children, text, textChange: newPropName}: ExampleProps) => {
-  
+
   const [newText, setnewText] = useState<string>('oia');
 
   const handleOnPress = () => {
     setnewText('novo texto');
     console.log('Clicou');
-  }
+  };
 
   // useEffect(() => {
   //   console.log('Componente montado');

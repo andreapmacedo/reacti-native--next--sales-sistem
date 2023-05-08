@@ -1,6 +1,6 @@
 import { Text, View, SafeAreaView } from "react-native";
 import styled from 'styled-components/native';
-import Example from "./Example";
+import Login from "./modules/login";
 
 
 export const NewText = styled.Text`
@@ -8,15 +8,10 @@ export const NewText = styled.Text`
   color: red;
 `;
 
-
 const App = () => {
   return (
     <SafeAreaView>
-      <Text>Testando</Text>
-      <Example text="Botafogo">Title</Example>
-      <Example textChange="ABC"/>
-      <Example text="América"/>
-      {/* <NewText>Testando</NewText> */}
+      <Login />
     </SafeAreaView>
   );
 };

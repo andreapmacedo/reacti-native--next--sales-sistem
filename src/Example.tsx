@@ -1,5 +1,5 @@
 import { Button, Text, View } from "react-native";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 
 interface ExampleProps {
   text?: string;
@@ -16,7 +16,17 @@ const Example = ({children, text, textChange: newPropName}: ExampleProps) => {
     setnewText('novo texto');
     console.log('Clicou');
   }
-  
+
+  // useEffect(() => {
+  //   console.log('Componente montado');
+  // });
+  // useEffect(() => {
+  //   console.log('Componente montado');
+  // }, []);
+  useEffect(() => {
+    console.log('Componente montado');
+  }, [newText]);
+
   return (
     <View>
       {/* <Text style={{color: 'blue'}} >{newPropName}</Text> */}

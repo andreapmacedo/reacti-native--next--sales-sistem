@@ -2,6 +2,7 @@ import { View } from "react-native";
 import { ContainerLogin } from "../styles/login.style";
 import Input from "../../../shared/components/input/Input";
 import Button from "../../../shared/components/button/Button";
+import { theme } from "../../../shared/themes/theme";
 
 const Login = () => {
   const handleOnPress = () => {
@@ -11,7 +12,11 @@ const Login = () => {
     <View>
       <ContainerLogin>
         <Input />
-        <Button margin="16px" title="Entrar" onPress={handleOnPress}/>
+        <Button
+          type={theme.buttons.buttonsTheme.primary}
+          margin="16px"
+          title="Entrar"
+          onPress={handleOnPress}/>
       </ContainerLogin>
     </View>
   );

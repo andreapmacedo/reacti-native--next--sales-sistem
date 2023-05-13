@@ -11,7 +11,10 @@ const Login = () => {
   return (
     <View>
       <ContainerLogin>
-        <Input />
+        <Input 
+          title="email:"
+          placeholder="Digite seu email"
+        />
         <Button
           type={theme.buttons.buttonsTheme.primary}
           margin="16px"

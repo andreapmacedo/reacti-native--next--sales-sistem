@@ -1,12 +1,15 @@
-import styled from 'styled-components';
+import { theme } from '../../themes/theme';
+import styled from 'styled-components/native';
+
 
 export const ContainerInput = styled.TextInput`
   width: 100%;
   height: 48px;
-  border-radius: 5px;
-  border: 1px solid #ccc;
-  margin: 10px;
-  padding: 0 16px;
-  background-color: #fff;
-  color: #888;
+  padding: 16px;
+  border: 1px solid;
+  border-radius: 4px;
+  color: ${theme.colors.neutralTheme.black};
+  border-color: ${theme.colors.grayTheme.gray80};
+  background-color: ${theme.colors.neutralTheme.white};
 `;
+

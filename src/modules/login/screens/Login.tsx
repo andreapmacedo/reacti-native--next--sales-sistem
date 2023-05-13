@@ -14,6 +14,7 @@ const Login = () => {
         <Input 
           title="email:"
           placeholder="Digite seu email"
+          errorMessage="Email inválido"
         />
         <Button
           type={theme.buttons.buttonsTheme.primary}

@@ -16,6 +16,7 @@ const Login = () => {
           type={theme.buttons.buttonsTheme.primary}
           margin="16px"
           title="Entrar"
+          // loading
           onPress={handleOnPress}/>
       </ContainerLogin>
     </View>

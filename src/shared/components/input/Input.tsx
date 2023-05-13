@@ -29,7 +29,7 @@ const Input = ({margin, secureTextEntry, title, errorMessage, ...props}: InputPr
     <DisplayFlexColumn customMargin={margin} >
       { title && 
         (<Text
-          margin="0px 0px 4px 8px"
+          // margin="0px 0px 4px 8px"
           type={textTypes.PARAGRAPH_SMALL_SEMI_BOLD} 
           color={theme.colors.grayTheme.gray100}
         >
@@ -53,7 +53,7 @@ const Input = ({margin, secureTextEntry, title, errorMessage, ...props}: InputPr
         </View>
       { errorMessage &&
         <Text
-          margin="0px 0px 0px 8px"
+          // margin="0px 0px 0px 8px"
           type={textTypes.PARAGRAPH_SMALL_SEMI_BOLD}
           color={theme.colors.orangeTheme.orange80}>
           {errorMessage}

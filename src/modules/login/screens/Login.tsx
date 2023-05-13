@@ -14,10 +14,17 @@ const Login = () => {
       <ContainerLogin>
         <Icon name="home3" size={44} color="blue"/>
         {/* <Icon name="home3" /> */}
-        <Input 
+        <Input
+          customMargin="0px 0px 16px 0px" 
           title="email:"
           placeholder="Digite seu email"
           errorMessage="Email inválido"
+        />
+        <Input
+          secureTextEntry 
+          title="senha:"
+          placeholder="Digite sua senha"
+          errorMessage="senha inválida"
         />
         <Button
           type={theme.buttons.buttonsTheme.primary}

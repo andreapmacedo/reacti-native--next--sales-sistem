@@ -1,8 +1,10 @@
 import { theme } from '../../themes/theme';
 import styled from 'styled-components/native';
+import { Icon } from "../../../shared/components/icon/icon";
 
 interface ContainerInputProps {
   isError?: boolean;
+  hasSecureTextEntry?: boolean;
 }
 
 
@@ -15,6 +17,13 @@ export const ContainerInput = styled.TextInput<ContainerInputProps>`
   color: ${theme.colors.neutralTheme.black};
   border-color: ${(props) => props.isError ? theme.colors.orangeTheme.orange80 : theme.colors.neutralTheme.white};
   background-color: ${theme.colors.neutralTheme.white};
-  `;
+  padding-right: ${(props) => props.hasSecureTextEntry ? '48px' : '16px'};
+`;
   // border-color: ${theme.colors.grayTheme.gray80};
+
+export const IconEye = styled(Icon)`
+  position: absolute;
+  right: 16px;
+  top: 12px;
+`;
 

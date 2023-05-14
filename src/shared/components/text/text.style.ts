@@ -9,7 +9,7 @@ interface ContainerTextProps {
 
 export const ContainerText = styled.Text<ContainerTextProps>`
   ${(props) => (props.color ? `color: ${props.color}` : '')};
-  ${(props) => (props.customMargin ? `color: ${props.customMargin}` : '')};
+  ${(props) => (props.customMargin ? `margin: ${props.customMargin}` : '')};
   /* font-family: Poppins-Bold; */
   padding-top: 3px;
   font-family: ${(props) => props.fontFamily};

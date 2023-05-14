@@ -3,7 +3,7 @@ import { ContainerLogin } from "../styles/login.style";
 import Input from "../../../shared/components/input/Input";
 import Button from "../../../shared/components/button/Button";
 import { theme } from "../../../shared/themes/theme";
-import { Icon } from "../../../shared/components/icon/icon";
+import { Icon } from "../../../shared/components/icon/Icon";
 
 const Login = () => {
   const handleOnPress = () => {

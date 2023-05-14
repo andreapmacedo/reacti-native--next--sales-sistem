@@ -1,6 +1,6 @@
 import { theme } from '../../themes/theme';
 import styled from 'styled-components/native';
-import { Icon } from "../../../shared/components/icon/icon";
+import { Icon } from "../icon/Icon";
 
 interface ContainerInputProps {
   isError?: boolean;

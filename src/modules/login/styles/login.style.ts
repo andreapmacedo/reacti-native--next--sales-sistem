@@ -4,9 +4,16 @@ import { theme } from "../../../shared/themes/theme";
 export const ContainerLogin = styled.View`
   height: 100%;
   width: 100%;
-  background-color: pink;
+  background-color: ${theme.colors.neutralTheme.white};
   justify-content: center;
   align-items: center;
-  padding: 0 16px;
-  background-color: ${theme.colors.neutralTheme.white};
+  padding: 16px;
+`;
+
+
+export const ImageLogo = styled.Image`
+  /* width: 50%; */
+  width: 250px;
+  height: 250px;
+  margin-bottom: 24px;
 `;

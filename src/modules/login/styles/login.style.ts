@@ -13,7 +13,7 @@ export const ContainerLogin = styled.View`
 
 export const ImageLogo = styled.Image`
   /* width: 50%; */
-  width: 250px;
-  height: 250px;
+  width: 150px;
+  height: 150px;
   margin-bottom: 24px;
 `;

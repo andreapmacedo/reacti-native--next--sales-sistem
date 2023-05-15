@@ -16,7 +16,6 @@ const Login = () => {
           source={require('../../../assets/images/logo.png')} 
           resizeMode="center"
         />
-        
         {/* <Icon name="home3" size={44} color="blue"/> */}
         {/* <Icon name="home3" /> */}
         <Input
